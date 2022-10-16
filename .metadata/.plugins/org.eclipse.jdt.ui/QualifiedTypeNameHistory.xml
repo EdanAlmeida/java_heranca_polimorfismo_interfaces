@@ -3,4 +3,11 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="constantes.StatusAluno"/>
+    <fullyQualifiedTypeName name="classes.Aluno"/>
+    <fullyQualifiedTypeName name="classes.Diretor"/>
+    <fullyQualifiedTypeName name="classes.Pessoa"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="classes.Secretario"/>
+    <fullyQualifiedTypeName name="interfaces.PermitirAcesso"/>
+    <fullyQualifiedTypeName name="classesauxiliares.FuncaoAutenticacao"/>
 </qualifiedTypeNameHistroy>

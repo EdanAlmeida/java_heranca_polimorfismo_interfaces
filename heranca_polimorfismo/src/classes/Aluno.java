@@ -139,22 +139,22 @@ public class Aluno extends Pessoa {
 		}
 	}
 
-	/*é possível mudar a regra de negócios aqui*/
-	@Override /*Identifica método sobreescrito*/
+	/* é possível mudar a regra de negócios aqui */
+	@Override /* Identifica método sobreescrito */
 	public boolean pessoaMaiorIdade() {
 		// TODO Auto-generated method stub
 		return super.pessoaMaiorIdade();
 	}
-	
+
 	public String msgMaiorIdade() {
 		return this.pessoaMaiorIdade() ? "Oba, aluno maior de idade" : "Vish, aluno nenezinho";
 	}
-	
+
 	@Override
 	public double Salario() {
 		return 1500.90;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Aluno [nome=" + nome + ", idade=" + idade + ", dataNascimento=" + dataNascimento + ", registroGeral="
