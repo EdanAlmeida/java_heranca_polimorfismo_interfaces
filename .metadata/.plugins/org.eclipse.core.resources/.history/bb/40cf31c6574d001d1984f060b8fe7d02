@@ -8,7 +8,6 @@ public class Secretario extends Pessoa implements PermitirAcesso {
 	private String nivelCargo;
 	private String experiencia;
 	
-	/*regra específica da interface*/
 	private String login;
 	private String senha;
 	
@@ -42,16 +41,14 @@ public class Secretario extends Pessoa implements PermitirAcesso {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
-	
 	@Override
 	public double Salario() {
 		return 2000.37 + 500.00; /*regra de negócio, por exemplo*/
 	}
 	
-	/*Método do contrato de autenticação*/
 	@Override
 	public boolean autenticar() {
-		return login.equals("admin") && senha.equals("admin");
+		return false;
 	}
 	
 	@Override
