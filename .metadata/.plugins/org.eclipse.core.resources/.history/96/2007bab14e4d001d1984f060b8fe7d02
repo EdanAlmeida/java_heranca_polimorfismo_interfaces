@@ -23,9 +23,9 @@ public class TestandoClassesFilhas {
 		System.out.println("Diretor: " + diretor1);
 		System.out.println("Secretario: " + secretario1);
 		
-		System.out.println(aluno1.pessoaMaiorIdade() + " " + aluno1.msgMaiorIdade());
-		System.out.println(diretor1.pessoaMaiorIdade());
-		System.out.println(secretario1.pessoaMaiorIdade());
+		aluno1.pessoaMaiorIdade();
+		diretor1.pessoaMaiorIdade();
+		secretario1.pessoaMaiorIdade();
 		
 	}
 }
