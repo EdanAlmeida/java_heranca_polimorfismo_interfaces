@@ -26,7 +26,8 @@ public class Secretario extends Pessoa {
 	
 	@Override
 	public double Salario() {
-		return 2000.37 + 500.00; /*regra de negócio, por exemplo*/
+		// TODO Auto-generated method stub
+		return 0;
 	}
 	
 	@Override

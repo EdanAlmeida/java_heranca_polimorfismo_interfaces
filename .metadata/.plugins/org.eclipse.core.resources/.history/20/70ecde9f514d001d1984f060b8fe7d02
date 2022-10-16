@@ -61,9 +61,6 @@ public abstract class Pessoa {
 		return idade >= 18;
 	}
 	
-	/*Método abstract é obrigatório*/
-	public abstract double Salario();
-	
 	@Override
 	public String toString() {
 		return "Pessoa [nome=" + nome + ", idade=" + idade + ", dataNascimento=" + dataNascimento + ", registroGeral="

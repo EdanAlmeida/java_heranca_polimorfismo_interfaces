@@ -25,11 +25,6 @@ public class Secretario extends Pessoa {
 	}
 	
 	@Override
-	public double Salario() {
-		return 2000.37 + 500.00; /*regra de negócio, por exemplo*/
-	}
-	
-	@Override
 	public String toString() {
 		return "Secretario [registro=" + registro + ", nivelCargo=" + nivelCargo + ", experiencia=" + experiencia
 				+ ", nome=" + nome + ", idade=" + idade + ", dataNascimento=" + dataNascimento + ", registroGeral="
