@@ -32,10 +32,8 @@ public class TestandoClassesFilhas {
 		System.out.println("Salário Diretor: " + diretor1.Salario());
 		System.out.println("Salário Secretário: " + secretario1.Salario());
 	
-		/*Polimorfismo -> Aceita todos pq são pessoas - tratamento*/
-		teste(aluno1);
-		teste(diretor1);
-		teste(secretario1);
+		Pessoa pessoa = new Aluno();
+		pessoa = secretario1;
 	}
 	
 	public static void teste(Pessoa pessoa) {

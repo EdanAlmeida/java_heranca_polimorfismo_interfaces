@@ -2,7 +2,6 @@ package executavel;
 
 import classes.Aluno;
 import classes.Diretor;
-import classes.Pessoa;
 import classes.Secretario;
 
 public class TestandoClassesFilhas {
@@ -31,16 +30,6 @@ public class TestandoClassesFilhas {
 		System.out.println("Salário Aluno: " + aluno1.Salario());
 		System.out.println("Salário Diretor: " + diretor1.Salario());
 		System.out.println("Salário Secretário: " + secretario1.Salario());
-	
-		/*Polimorfismo -> Aceita todos pq são pessoas - tratamento*/
-		teste(aluno1);
-		teste(diretor1);
-		teste(secretario1);
+		
 	}
-	
-	public static void teste(Pessoa pessoa) {
-		System.out.println("Essa pessoa é demais: " + pessoa.getNome() + "| Salario: " 
-		+ pessoa.Salario());
-	}
-	
 }
